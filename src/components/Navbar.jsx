@@ -37,13 +37,15 @@ const Navbar = () => {
               key={link.id}
               className={`${
                 active === link.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[25px] font-medium cursor-pointer`}
+              } 
+                hover:text-white text-[25px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)} //makes it stay white on click. Sets it "active"
             >
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
         </ul>
+
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
