@@ -22,11 +22,10 @@ const Hero = () => {
             </span>
           </h1>
           <p
-            className={`${styles.heroSubText} mt-2 text-white drop-shadow-[0_3px_3.5px_#000000]`}
+            className={`${styles.heroSubText} mt-2 text-black drop-shadow-[0_3px_3px_#f8f4f4]`}
           >
             I am a determined Developer with skills ranging from Software Development, Web Development, and SQL Data-Analytics. With my
-            everlasting drive, I know I will land my dream job in the Tech
-            Industry.
+            everlasting drive, I hope to land my dream job in the Tech Industry.
           </p>
         </div>
       </div>
