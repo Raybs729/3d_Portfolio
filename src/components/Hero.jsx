@@ -17,23 +17,39 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText}`}>
             Hi, my name is{" "}
-            <span className="drop-shadow-[0_3px_3px_#0a0101]">
-              Ray.
-            </span>
+            <span className="drop-shadow-[0_3px_3px_#0a0101]">Ray.</span>
           </h1>
           <p
             className={`${styles.heroSubText} mt-2 text-white drop-shadow-[0_3px_3px_#000000]`}
           >
-            I am a determined Developer with skills ranging from<br className="lg:block hidden"/> Software Development, Web Development, and SQL Data-Analytics. <br className="lg:block hidden"/>With my
-            everlasting drive, I hope to land my dream job in the Tech Industry.
+            I am a determined Developer with skills ranging from
+            <br className="lg:block hidden" /> Software Development, Web
+            Development, and SQL Data-Analytics.{" "}
+            <br className="lg:block hidden" />
+            With my everlasting drive, I hope to land my dream job in the Tech
+            Industry.
           </p>
         </div>
       </div>
 
-      <ComputersCanvas/>
-      <div className="absolute xs: bottom-10 bottom-32 w-full flex justify-center items-center"></div>
+      <ComputersCanvas />
+      <div className="absolute xs:bottom-5 bottom-32 w-full flex justify-center items-center">
+        <a href="#about">
+          <div className="w-[40px] h-[60px] rounded-full border-4 border-white flex justify-center items-start p-2">
+            <motion.dev
+              animate={{ y: [0, 24, 0] }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                repeatType: "loop",
+              }}
+              className="w-4 h-4 rounded-full bg-white mb-1"
+            />
+          </div>
+        </a>
+      </div>
     </section>
   );
 };
-//="via" keyword seems to initiate the gradient from the initial color | the "outline-8" creates a larger outline. "outline" utility class- This class takes two arguments: the width of the outline and the color of the outline.
+//="via" keyword seems to initiate the gradient from the initial color | the "outline-8" creates a larger outline. "outline" utility class- This class takes two arguments: the width of the outline and the color of the outline. "#about" notes that we will be scrolling to the about section
 export default Hero;
