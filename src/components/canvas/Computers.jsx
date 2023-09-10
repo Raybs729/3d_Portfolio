@@ -23,7 +23,7 @@ const Computers = () => {
         object={computer.scene}
         scale={10.75}
         position={[0, -10.25, -1.5]}
-        rotation={[0.28, 0.1, -.09]}
+        rotation={[0.3, 0.1, -.2]}
       />
     </mesh>
   );

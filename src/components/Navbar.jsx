@@ -10,7 +10,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
+      className={`${styles.paddingX} w-full flex items-center py-2.5 fixed top-0 z-20 bg-primary`}
     >
       <div className="w-full flex justify-between items-center max-w-7x1 mx-auto">
         <Link
@@ -24,10 +24,10 @@ const Navbar = () => {
           <img
             src="src\assets\newLogo.png"
             alt="logo"
-            className="w-20 h-20 object-cover"
-            width="400px"
+            className="w-20 h-20 lg:w-30 lg:h-30 sm:w-20 sm:h-20 xs:w-12 xs:h-12 object-cover"
           />
-          <p className="text-white text-[40px] font-bold cursor-pointer">
+
+          <p className="text-white lg:text-[40px] sm:text-[30px] xs:text-[25px] font-bold cursor-pointer ">
             Ray Briones{" "}
           </p>
         </Link>
