@@ -22,12 +22,7 @@ const Hero = () => {
           <p
             className={`${styles.heroSubText} text-white drop-shadow-[0_3px_8px_#000000]`}
           >
-            I am a Software Developer with skills ranging from
-            <br className="lg:block hidden" /> Back-end Development, Web
-            Development, and SQL Data-Analytics.{" "}
-            <br className="lg:block hidden" />
-            With my everlasting drive, I hope to land my dream job in the Tech
-            Industry.
+            I am a Software Developer with a passion to explore and adapt to the world's ever-advancing technologies.
           </p>
         </div>
       </div>
