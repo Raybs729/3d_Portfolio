@@ -42,7 +42,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Java Developer",
       icon: web,
     },
     {
@@ -50,11 +50,15 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Next.js Framework",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Three.js Framework",
+      icon: creator,
+    },
+    {
+      title: "SQL Database Experience",
       icon: creator,
     },
   ];
@@ -116,7 +120,7 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
+      title: "Java Developer",
       company_name: "Starbucks",
       icon: starbucks,
       iconBg: "#383E56",
@@ -129,7 +133,7 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
+      title: "JavaScript Developer",
       company_name: "Tesla",
       icon: tesla,
       iconBg: "#E6DEDD",
