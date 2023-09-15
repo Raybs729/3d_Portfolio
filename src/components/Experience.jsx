@@ -11,9 +11,12 @@ import { textVariant } from "../utils/motion";
 const Experience = () => {
   return (
     <>
-      
+      <motion.div variants = {textVariant()}>
+      <p className={styles.sectionSubText}>What I Have Done So Far</p>
+      <h2 className={styles.sectionHeadText}>Projects</h2>
+      </motion.div>
     </>
   )
 }
 
-export default Experience
+export default SectionWrapper(Experience, "work")
