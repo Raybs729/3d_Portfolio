@@ -22,7 +22,7 @@ const Hero = () => {
           <p
             className={`${styles.heroSubText} text-white drop-shadow-[0_3px_8px_#000000]`}
           >
-            I am a Software Developer with a passion to explore and adapt to the world's ever-advancing technologies.
+            I am a Software Developer with a passion to explore the world's ever-advancing technologies.
           </p>
         </div>
       </div>
