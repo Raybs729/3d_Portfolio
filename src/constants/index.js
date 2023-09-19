@@ -4,17 +4,13 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
     meta,
     starbucks,
     tesla,
@@ -23,6 +19,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    firebase,
+    csharp,
   } from "../assets";
   
   export const navLinks = [
@@ -65,28 +63,28 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Csharp",
+      icon: csharp,
+    },
+    {
+      name: "Three JS",
+      icon: threejs,
+    },
+    {
+      name: "HTML 5",
+      icon: html,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "CSS 3",
+      icon: css,
     },
     {
       name: "Tailwind CSS",
@@ -101,23 +99,15 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "firebase",
+      icon: firebase,
     },
     {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
-  
+  //= deleting or adding above will alter the balls
   const experiences = [
     {
       title: "Java Developer",
