@@ -18,6 +18,8 @@ import threejs from "./tech/threejs.svg";
 import firebase from "./tech/firebase.jpg";
 import csharp from "./tech/csharp.png";
 import java from "./tech/java.jpg";
+import nextjs from "./tech/nextjs.png";
+import python from "./tech/python.png";
 
 
 import meta from "./company/meta.png";
@@ -56,4 +58,6 @@ export {
   firebase,
   csharp,
   java,
+  nextjs,
+  python,
 };

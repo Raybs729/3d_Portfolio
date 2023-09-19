@@ -22,6 +22,8 @@ import {
     firebase,
     csharp,
     java,
+    nextjs,
+    python,
   } from "../assets";
   
   export const navLinks = [
@@ -76,6 +78,10 @@ import {
       icon: csharp,
     },
     {
+      name: "Next JS",
+      icon: nextjs,
+    },
+    {
       name: "Three JS",
       icon: threejs,
     },
@@ -94,6 +100,10 @@ import {
     {
       name: "Tailwind CSS",
       icon: tailwind,
+    },
+    {
+      name: "Python",
+      icon: python,
     },
     {
       name: "Node JS",
