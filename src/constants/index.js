@@ -21,6 +21,7 @@ import {
     threejs,
     firebase,
     csharp,
+    java,
   } from "../assets";
   
   export const navLinks = [
@@ -62,6 +63,10 @@ import {
   ];
   
   const technologies = [
+    {
+      name: "Java",
+      icon: java,
+    },
     {
       name: "JavaScript",
       icon: javascript,

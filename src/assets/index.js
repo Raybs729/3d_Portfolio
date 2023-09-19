@@ -15,8 +15,10 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
-import firebase from "./tech/firebase.png"
-import csharp from "./tech/csharp.png"
+import firebase from "./tech/firebase.jpg";
+import csharp from "./tech/csharp.png";
+import java from "./tech/java.jpg";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -53,4 +55,5 @@ export {
   tripguide,
   firebase,
   csharp,
+  java,
 };
