@@ -122,10 +122,10 @@ import {
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Created an interactive 3d portfolio with the goal to showcase my skillset to recruiters and hiring managers.",
+        "Combined all my understanding of Three.js, React, and JavaScript to restructure page in a way to outlines my current journey towards a Tech Career.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Pull resouces from Youtube, StackOverflow, and Github to debug and resolve issues.",
       ],
     },
     {
