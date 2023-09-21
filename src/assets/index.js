@@ -6,20 +6,20 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.svg";
-import firebase from "./tech/firebase.jpg";
+import threejs1 from "./tech/threejs1.png";
 import csharp from "./tech/csharp.png";
 import java from "./tech/java.jpg";
-import nextjs from "./tech/nextjs.png";
+import nextjs1 from "./tech/nextjs.jpg";
 import python from "./tech/python.png";
+import firebase from "./tech/firebase.jpg";
+import postgres from "./tech/postgres.jpg";
+import htmlcss from "./tech/htmlcss.jpg";
 
 
 import meta from "./company/meta.png";
@@ -39,15 +39,13 @@ export {
   github,
   menu,
   close,
-  css,
   git,
-  html,
   javascript,
   mongodb,
   nodejs,
   reactjs,
   tailwind,
-  threejs,
+  threejs1,
   meta,
   shopify,
   starbucks,
@@ -55,9 +53,11 @@ export {
   carrent,
   jobit,
   tripguide,
-  firebase,
   csharp,
   java,
-  nextjs,
+  nextjs1,
   python,
+  firebase,
+  postgres,
+  htmlcss
 };

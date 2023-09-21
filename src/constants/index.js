@@ -1,16 +1,10 @@
 import {
-    mobile,
-    backend,
     creator,
-    web,
     javascript,
-    html,
-    css,
     reactjs,
     tailwind,
     nodejs,
     mongodb,
-    git,
     meta,
     starbucks,
     tesla,
@@ -18,12 +12,14 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
-    firebase,
+    threejs1,
     csharp,
     java,
-    nextjs,
+    nextjs1,
     python,
+    firebase,
+    postgres,
+    htmlcss
   } from "../assets";
   
   export const navLinks = [
@@ -44,19 +40,19 @@ import {
   const services = [
     {
       title: "Java Developer",
-      icon: web,
+      icon: java,
     },
     {
       title: "React Native Developer",
-      icon: mobile,
+      icon: reactjs,
     },
     {
       title: "Next.js Framework",
-      icon: backend,
+      icon: nextjs1,
     },
     {
       title: "Three.js Framework",
-      icon: creator,
+      icon: threejs1,
     },
     {
       title: "SQL Database Experience",
@@ -78,28 +74,28 @@ import {
       icon: csharp,
     },
     {
+      name: "HTML & CSS",
+      icon: htmlcss,
+    },
+    {
       name: "Next JS",
-      icon: nextjs,
+      icon: nextjs1,
     },
     {
       name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "HTML 5",
-      icon: html,
+      icon: threejs1,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
+    },
+    {
+      name: "PostgreSQL",
+      icon: postgres,
     },
     {
       name: "Python",
@@ -114,12 +110,8 @@ import {
       icon: mongodb,
     },
     {
-      name: "firebase",
+      name: "Firebase",
       icon: firebase,
-    },
-    {
-      name: "git",
-      icon: git,
     },
   ];
   //= deleting or adding above will alter the balls
