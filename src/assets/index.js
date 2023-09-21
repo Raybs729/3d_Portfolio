@@ -21,11 +21,10 @@ import firebase from "./tech/firebase.jpg";
 import postgres from "./tech/postgres.jpg";
 import htmlcss from "./tech/htmlcss.jpg";
 
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+import tech_elevator from "./company/tech_elevator.png";
+import newLogo from "./newLogo.png";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import tesla from "./company/tesla.png"; 
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -46,9 +45,6 @@ export {
   reactjs,
   tailwind,
   threejs1,
-  meta,
-  shopify,
-  starbucks,
   tesla,
   carrent,
   jobit,
@@ -59,5 +55,7 @@ export {
   python,
   firebase,
   postgres,
-  htmlcss
+  htmlcss,
+  tech_elevator,
+  newLogo
 };

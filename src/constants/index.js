@@ -5,10 +5,7 @@ import {
     tailwind,
     nodejs,
     mongodb,
-    meta,
-    starbucks,
     tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
@@ -19,7 +16,9 @@ import {
     python,
     firebase,
     postgres,
-    htmlcss
+    htmlcss,
+    tech_elevator,
+    newLogo
   } from "../assets";
   
   export const navLinks = [
@@ -117,9 +116,9 @@ import {
   //= deleting or adding above will alter the balls
   const experiences = [
     {
-      title: "Java Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "3D Portfolio",
+      company_name: "Three.js, Vite, React, TailwindCSS, Framer Motion",
+      icon: newLogo,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
@@ -145,7 +144,7 @@ import {
     {
       title: "Web Developer",
       company_name: "Shopify",
-      icon: shopify,
+      icon: '',
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
@@ -156,16 +155,15 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Full-Stack Java Developer Student",
+      company_name: "Tech Elevator",
+      icon: tech_elevator,
+      iconBg: "#FFFFFFFF",
+      date: "Jan 2023 - Apr 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "A full-stack coding boot camp using centralized around the Java programming language with 800+ hours of lecture and application",
+        "Collaborating with cohort team members with rich and diverse backgrounds.",
+        "Implemented Agile Methodologies to complete a variety of Capstone Projects.",
       ],
     },
   ];
