@@ -24,7 +24,7 @@ import htmlcss from "./tech/htmlcss.jpg";
 import tech_elevator from "./company/tech_elevator.png";
 import newLogo from "./newLogo.png";
 import petflix_logo from "./company/Petflix_Logo.png";
-import tesla from "./company/tesla.png"; 
+import weatherapp from "./company/weatherapp.png"; 
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -45,7 +45,6 @@ export {
   reactjs,
   tailwind,
   threejs1,
-  tesla,
   carrent,
   jobit,
   tripguide,
@@ -58,5 +57,6 @@ export {
   htmlcss,
   tech_elevator,
   newLogo,
-  petflix_logo
+  petflix_logo,
+  weatherapp
 };

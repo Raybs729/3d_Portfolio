@@ -5,7 +5,6 @@ import {
     tailwind,
     nodejs,
     mongodb,
-    tesla,
     carrent,
     jobit,
     tripguide,
@@ -19,7 +18,8 @@ import {
     htmlcss,
     tech_elevator,
     newLogo,
-    petflix_logo
+    petflix_logo,
+    weatherapp
   } from "../assets";
   
   export const navLinks = [
@@ -145,7 +145,7 @@ import {
     {
       title: "Web Developer",
       techUsed_or_companyName: "Shopify",
-      icon: '',
+      icon: weatherapp,
       iconBg: "#383E56",
       date: "January 2022 - Jan 2023",
       points: [
