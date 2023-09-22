@@ -18,7 +18,8 @@ import {
     postgres,
     htmlcss,
     tech_elevator,
-    newLogo
+    newLogo,
+    petflix_logo
   } from "../assets";
   
   export const navLinks = [
@@ -117,23 +118,23 @@ import {
   const experiences = [
     {
       title: "3D Portfolio",
-      company_name: "Three.js, Vite, React, TailwindCSS, Framer Motion",
+      techUsed_or_companyName: "Three.js, Vite, React.js, TailwindCss, Framer Motion",
       icon: newLogo,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      iconBg: "#FFFFFFFF",
+      date: "Aug 2023 - Sept 2023",
       points: [
         "Created an interactive 3d portfolio with the goal to showcase my skillset to recruiters and hiring managers.",
         "Combined all my understanding of Three.js, React, and JavaScript to restructure page in a way to outlines my current journey towards a Tech Career.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Pull resouces from Youtube, StackOverflow, and Github to debug and resolve issues.",
+        "Pull resouces from React Docs, JavaScript Docs, StackOverflow, and Youtube to debug and resolve issues.",
       ],
     },
     {
-      title: "JavaScript Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Petflix",
+      techUsed_or_companyName: "React.js, Firebase Auth, TMDb API, TailwindCss",
+      icon: petflix_logo,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Aug 2023 - Sept 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -143,7 +144,7 @@ import {
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
+      techUsed_or_companyName: "Shopify",
       icon: '',
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
@@ -156,7 +157,7 @@ import {
     },
     {
       title: "Full-Stack Java Developer Student",
-      company_name: "Tech Elevator",
+      techUsed_or_companyName: "Tech Elevator",
       icon: tech_elevator,
       iconBg: "#FFFFFFFF",
       date: "Jan 2023 - Apr 2023",

@@ -23,7 +23,7 @@ import htmlcss from "./tech/htmlcss.jpg";
 
 import tech_elevator from "./company/tech_elevator.png";
 import newLogo from "./newLogo.png";
-import starbucks from "./company/starbucks.png";
+import petflix_logo from "./company/Petflix_Logo.png";
 import tesla from "./company/tesla.png"; 
 
 import carrent from "./carrent.png";
@@ -57,5 +57,6 @@ export {
   postgres,
   htmlcss,
   tech_elevator,
-  newLogo
+  newLogo,
+  petflix_logo
 };
