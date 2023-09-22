@@ -121,7 +121,7 @@ import {
       techUsed_or_companyName: "Three.js, Vite, React.js, TailwindCss, Framer Motion",
       icon: newLogo,
       iconBg: "#FFFFFFFF",
-      date: "Aug 2023 - Sept 2023",
+      date: "August 2023 - September 2023",
       points: [
         "Created an interactive 3d portfolio with the goal to showcase my skillset to recruiters and hiring managers.",
         "Combined all my understanding of Three.js, React, and JavaScript to restructure page in a way to outlines my current journey towards a Tech Career.",
@@ -134,7 +134,7 @@ import {
       techUsed_or_companyName: "React.js, Firebase Auth, TMDb API, TailwindCss",
       icon: petflix_logo,
       iconBg: "#E6DEDD",
-      date: "Aug 2023 - Sept 2023",
+      date: "June 2023 - July 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -147,7 +147,7 @@ import {
       techUsed_or_companyName: "Shopify",
       icon: '',
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "January 2022 - Jan 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -160,7 +160,7 @@ import {
       techUsed_or_companyName: "Tech Elevator",
       icon: tech_elevator,
       iconBg: "#FFFFFFFF",
-      date: "Jan 2023 - Apr 2023",
+      date: "January 2023 - April 2023",
       points: [
         "A full-stack coding boot camp using centralized around the Java programming language with 800+ hours of lecture and application",
         "Collaborating with cohort team members with rich and diverse backgrounds.",
