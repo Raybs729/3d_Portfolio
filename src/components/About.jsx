@@ -61,9 +61,7 @@ const About = () => {
         storing user workouts and authentication. On a personal learning
         venture, I developed a weather app that uses WeatherAPI to provide
         real-time weather data based on location; as a fun project, I created a
-        Netflix clone named “Petflix”. This site not only uses the TMDb API to
-        populate it with movies and shows but also features “trailers” of my
-        pets, Ori and Cookie.
+        Netflix clone named “Petflix”.
       </motion.p>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}

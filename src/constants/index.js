@@ -19,7 +19,8 @@ import {
     tech_elevator,
     newLogo,
     petflix_logo,
-    weatherapp
+    weatherapp,
+    sql
   } from "../assets";
   
   export const navLinks = [
@@ -56,7 +57,7 @@ import {
     },
     {
       title: "SQL Database Experience",
-      icon: creator,
+      icon: sql,
     },
   ];
   
@@ -137,8 +138,9 @@ import {
       date: "June 2023 - July 2023",
       points: [
         "Designed a Netflix-clone application to better understand React.js and TailwindCss",
-        "Utilized Firebase authentication to store User emails and passwords. .",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Utilized Firebase authentication to store User emails and passwords.",
+        "Incorporated TMBd API to populate webpage with movie thumbnails and categories.",
+        "This project also features “trailers” of my pets, Ori and Cookie. Allowing me to add a personal touch to my learning experience.",
       ],
     },
     {
@@ -148,10 +150,9 @@ import {
       iconBg: "#383E56",
       date: "May 2023 - May 2023",
       points: [
-        "Implemented user input functionality and integrated an API service to deliver detailed, current weather information.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "",
-        "",
+        "Set a goal to understand API intergration by creating a weather service application.",
+        "Implemented user input functionality and integrated an WeatherAPI service to deliver detailed, current weather information.",
+        "Designed it for mobile services and created an interface that changes based on specified location's weather",
       ],
     },
     {

@@ -5,6 +5,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import sql from "./sql.png"
 
 import git from "./tech/git.png";
 import javascript from "./tech/javascript.png";
@@ -58,5 +59,6 @@ export {
   tech_elevator,
   newLogo,
   petflix_logo,
-  weatherapp
+  weatherapp,
+  sql
 };
