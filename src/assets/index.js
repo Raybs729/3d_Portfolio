@@ -28,6 +28,7 @@ import petflix_logo from "./company/Petflix_Logo.png";
 import weatherapp from "./company/weatherapp.png"; 
 
 import carrent from "./carrent.png";
+import petflix from "./petflix_project.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -60,5 +61,6 @@ export {
   newLogo,
   petflix_logo,
   weatherapp,
-  sql
+  sql,
+  petflix
 };

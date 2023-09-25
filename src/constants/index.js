@@ -20,7 +20,8 @@ import {
     newLogo,
     petflix_logo,
     weatherapp,
-    sql
+    sql,
+    petflix
   } from "../assets";
   
   export const navLinks = [
@@ -195,19 +196,19 @@ import {
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
-  
+  //!NEED TO CHANGE BELOW
   const projects = [
     {
-      name: "Car Rent",
+      name: "Petflix",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that  was built with the purpose of learning React.js and Firebase Authentication services. It allows users to view a Netflix-clone that also incorporates a personal aspect with video trailers and thumbnails of my pets Ori and Cookie.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
@@ -215,7 +216,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: petflix,
       source_code_link: "https://github.com/",
     },
     {
