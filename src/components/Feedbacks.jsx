@@ -41,7 +41,7 @@ const FeedbackCard = ({
     
   </motion.div>
 );
-
+//# found bug fix for "what other says" and testimonials spacing. "-mx-14" pushes back spacing made from "styles"
 const Feedbacks = () => {
   return (
     <div className="mt-12 bg-black-100 rounded-[20px]">
@@ -49,8 +49,8 @@ const Feedbacks = () => {
         className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}
       >
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>What Others Say</p>
-          <h2 className={styles.sectionHeadText}>Testimonials</h2>
+          <p className={`${styles.sectionSubText} -mx-14`}>What Others Say</p>
+          <h2 className={`${styles.sectionHeadText} -mx-14`}>Testimonials</h2>
         </motion.div>
       </div>
       <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
@@ -62,4 +62,4 @@ const Feedbacks = () => {
   );
 };
 
-export default Feedbacks;
+export default SectionWrapper(Feedbacks);
