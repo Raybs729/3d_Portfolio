@@ -73,13 +73,11 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] sm:px-10 px-6"
         >
-          The following projects are various software application that I am
+          The following projects are various software applications that I am
           developing or currently developing in an entrepreneurial and
-          exploratory manner. Each project has links with code repositories live
+          exploratory manner. Each project has links with code repositories and live
           demos included. These projects reflect my ability to solve problems,
-          work with different technologies, and manage projects effectively. In
-          my continued pursuit of knowledge, I know my unwavering drive will
-          help me land my first role in the Tech Industry.
+          work with various technologies, and manage projects effectively. I deeply enjoy delving into new frameworks and learning how to develop new applications. I believe these projects accurately display a glimpse into my passion for programming.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
