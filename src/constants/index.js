@@ -173,27 +173,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Ray is such a pleasure to work with. His attention to detail keeps has helped immensely in laying the groundwork for the project. His consideration for his peers and his work ethic are a pillar to any collaboration.",
+      name: "Janice Lee",
+      designation: "Supervisor",
+      company: "Lowe's Home Improvement",
+      image: "https://preview.redd.it/y758gcufnw681.jpg?auto=webp&s=61b39fed1065293163ac470c32d5a76c6e2d17f3",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Ray demonstrates the key trait a Software Developer should have and thats perseverence. We could not have found fixes to multiple bugs if he didn't continue to search for work-arounds through multiple sleep-less nights.",
+      name: "Jeremy Clark",
+      designation: "Project Partner",
+      company: "100Devs",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNE2eav5fRZPSjesaqSxy32hP5y190HzBfug&usqp=CAU",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "Ray is so great at explaining concepts! He spent almost the whole afternoon explaining class topics in such a simple to understand manner and it ultimately got me past the initial learning curve of programming.",
       name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      designation: "Project Partner",
+      company: "100Devs",
+      image: "https://img.freepik.com/premium-photo/japanese-girl-tokyo_186382-8965.jpg",
     },
   ];
   //!NEED TO CHANGE BELOW

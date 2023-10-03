@@ -46,12 +46,12 @@ const Contact = () => {
           to_email: "raybriones729@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'zOCP1DyNZFXBWvh8c'
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Thank you! I will get back to you as soon as possible.");
 
           setForm({
             name: "",
@@ -74,7 +74,7 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 0.2)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
-        <p className={styles.sectionSubText}>Get in Touch</p>
+        <p className= {styles.sectionSubText}>Get in Touch</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
 
         <form
