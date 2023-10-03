@@ -1,12 +1,9 @@
 import {
-    creator,
     javascript,
     reactjs,
     tailwind,
     nodejs,
     mongodb,
-    carrent,
-    jobit,
     tripguide,
     threejs1,
     csharp,
@@ -21,7 +18,8 @@ import {
     petflix_logo,
     weatherapp,
     sql,
-    petflix
+    petflix,
+    weather
   } from "../assets";
   
   export const navLinks = [
@@ -120,7 +118,7 @@ import {
   const experiences = [
     {
       title: "3D Portfolio",
-      techUsed_or_companyName: "Three.js, Vite, React.js, TailwindCss, Framer Motion",
+      techUsed_or_companyName: "Three.js, Vite, React.js, TailwindCSS, Framer Motion",
       icon: newLogo,
       iconBg: "#FFFFFFFF",
       date: "August 2023 - September 2023",
@@ -138,15 +136,15 @@ import {
       iconBg: "#E6DEDD",
       date: "June 2023 - July 2023",
       points: [
-        "Designed a Netflix-clone application to better understand React.js and TailwindCss",
+        "Designed a Netflix-clone application to better understand React.js and TailwindCSS",
         "Utilized Firebase authentication to store User emails and passwords.",
         "Incorporated TMBd API to populate webpage with movie thumbnails and categories.",
         "This project also features “trailers” of my pets, Ori and Cookie. Allowing me to add a personal touch to my learning experience.",
       ],
     },
     {
-      title: "Web Developer",
-      techUsed_or_companyName: "HTML, Css, JavaScript, WeatherAPI",
+      title: "WeatherApp",
+      techUsed_or_companyName: "HTML, CSS, JavaScript, WeatherAPI",
       icon: weatherapp,
       iconBg: "#383E56",
       date: "May 2023 - May 2023",
@@ -217,44 +215,44 @@ import {
         },
       ],
       image: petflix,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Raybs729/Netflix-Clone",
     },
     {
-      name: "Job IT",
+      name: "WeatherApp",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A weather application that allows users to check the weather of any location and retrieve real-time weather data from WeatherAPI. The sub-goal of this project was to use this project as a learning experience for API integration.",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: weather,
+      source_code_link: "https://github.com/Raybs729/WeatherApp",
     },
     {
-      name: "Trip Guide",
+      name: "Fitality",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive fitness companion app that uses PostgreSQL databasing at its core to log users data and workouts. Complete with HTML and CSS to bring the application to life.",
       tags: [
         {
-          name: "nextjs",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "PostgreSQL",
           color: "pink-text-gradient",
         },
       ],

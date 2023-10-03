@@ -27,14 +27,13 @@ import newLogo from "./newLogo.png";
 import petflix_logo from "./company/Petflix_Logo.png";
 import weatherapp from "./company/weatherapp.png"; 
 
-import carrent from "./carrent.png";
+import weather from "./weather.png"
 import petflix from "./petflix_project.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
   backend,
-  creator,
   mobile,
   web,
   github,
@@ -47,8 +46,6 @@ export {
   reactjs,
   tailwind,
   threejs1,
-  carrent,
-  jobit,
   tripguide,
   csharp,
   java,
@@ -62,5 +59,6 @@ export {
   petflix_logo,
   weatherapp,
   sql,
-  petflix
+  petflix,
+  weather
 };
