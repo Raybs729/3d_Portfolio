@@ -1,5 +1,4 @@
 import backend from "./backend.png";
-import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -29,7 +28,7 @@ import weatherapp from "./company/weatherapp.png";
 
 import weather from "./weather.png"
 import petflix from "./petflix_project.png"
-import jobit from "./jobit.png";
+import fitality from "./fitalitylogo.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -60,5 +59,6 @@ export {
   weatherapp,
   sql,
   petflix,
-  weather
+  weather,
+  fitality
 };

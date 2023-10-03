@@ -4,7 +4,6 @@ import {
     tailwind,
     nodejs,
     mongodb,
-    tripguide,
     threejs1,
     csharp,
     java,
@@ -19,7 +18,8 @@ import {
     weatherapp,
     sql,
     petflix,
-    weather
+    weather,
+    fitality
   } from "../assets";
   
   export const navLinks = [
@@ -256,8 +256,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: fitality,
+      source_code_link: "https://github.com/Raybs729/Fitness-Companion-App-Fitality-",
     },
   ];
   
