@@ -131,7 +131,7 @@ import {
     },
     {
       title: "Petflix",
-      techUsed_or_companyName: "React.js, Firebase Auth, TMDb API, TailwindCss",
+      techUsed_or_companyName: "React.js, Firebase Auth, TMDb API, TailwindCSS",
       icon: petflix_logo,
       iconBg: "#E6DEDD",
       date: "June 2023 - July 2023",
