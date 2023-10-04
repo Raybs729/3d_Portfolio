@@ -1,6 +1,7 @@
 import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { services } from "../constants";
@@ -70,12 +71,22 @@ const About = () => {
         With my relentless drive and curiosity, I am confident in securing a
         role in my dream career field.
       </motion.p>
-
-      <div className="mt-20 flex flex-wrap gap-10">
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)} 
+        className="py-5 mx-10 text-[25px]"
+        to='https://docs.google.com/document/d/1dlHtZ5eFRFy4PAxnv3T_N85OzKdGoVurkIEOLAykVgg/edit?usp=sharing'
+        alt='test'
+        >
+          <Link to='https://docs.google.com/document/d/1dlHtZ5eFRFy4PAxnv3T_N85OzKdGoVurkIEOLAykVgg/edit?usp=sharing'>My Resume📝</Link>
+          
+        </motion.p>
+      <div className="py-1 mt-9 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
+
+      
     </>
   );
 };

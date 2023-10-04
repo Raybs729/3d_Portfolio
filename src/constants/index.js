@@ -171,7 +171,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "Ray is such a pleasure to work with. His attention to detail keeps has helped immensely in laying the groundwork for the project. His consideration for his peers and his work ethic are a pillar to any collaboration.",
+        "Ray is such a pleasure to work with. His attention to detail has helped immensely in laying the groundwork for various projects. His consideration for his peers and his work ethic are a pillar to any collaboration.",
       name: "Janice Lee",
       designation: "Supervisor",
       company: "Lowe's Home Improvement",
@@ -187,7 +187,7 @@ import {
     },
     {
       testimonial:
-        "Ray is so great at explaining concepts! He spent almost the whole afternoon explaining class topics in such a simple to understand manner and it ultimately got me past the initial learning curve of programming.",
+        "Ray is so great at explaining concepts! He spent almost a whole afternoon explaining class topics in such a simple to understand manner and it ultimately got me past the initial learning curve of programming.",
       name: "Lisa Wang",
       designation: "Project Partner",
       company: "100Devs",
@@ -241,7 +241,7 @@ import {
     {
       name: "Fitality",
       description:
-        "A comprehensive fitness companion app that uses PostgreSQL databasing at its core to log users data and workouts. Complete with HTML and CSS to bring the application to life.",
+        "A fitness companion app with PostgreSQL database to log members, workouts, and classes, with additional features for gym staff. This project was a collaboration by 7 other developers with the goal of presenting it to a product owner",
       tags: [
         {
           name: "HTML",
