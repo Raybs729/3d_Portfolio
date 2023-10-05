@@ -121,7 +121,7 @@ import {
       techUsed_or_companyName: "Three.js, Vite, React.js, TailwindCSS, Framer Motion",
       icon: newLogo,
       iconBg: "#FFFFFFFF",
-      date: "August 2023 - September 2023",
+      date: "August 2023 - October 2023",
       points: [
         "Created an interactive 3d portfolio with the goal to showcase my skillset to recruiters and hiring managers.",
         "Combined all my understanding of Three.js, React, and JavaScript to restructure page in a way to outlines my current journey towards a Tech Career.",
