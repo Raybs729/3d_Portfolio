@@ -5,6 +5,8 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { menu, close } from "../assets";
 
+import { newLogo } from "../assets";
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -22,7 +24,7 @@ const Navbar = () => {
           }}
         >
           <img
-            src="src\assets\newLogo.png"
+            src={newLogo}
             alt="logo"
             className="w-20 h-20 lg:w-30 lg:h-30 sm:w-20 sm:h-20 xs:w-12 xs:h-12 object-cover"
           />

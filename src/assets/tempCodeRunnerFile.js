@@ -1,0 +1,1 @@
+./newLogo.png
