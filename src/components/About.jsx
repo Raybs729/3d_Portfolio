@@ -61,8 +61,8 @@ const About = () => {
         developers to create a fitness app; this app leverages PostgreSQL for
         storing user workouts and authentication. On a personal learning
         venture, I developed a weather app that uses WeatherAPI to provide
-        real-time weather data based on location; as a fun project, I created a
-        Netflix clone named “Petflix”.
+        real-time weather data based on location; as another fun side-project, I created a
+        Netflix clone named “Petflix” which Implemented TMBd movie database API.
       </motion.p>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
