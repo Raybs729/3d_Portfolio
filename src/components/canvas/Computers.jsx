@@ -2,8 +2,6 @@ import { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
-import CanvasLoader from "../Loader";
-
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./spaceman/scene.gltf");
 
@@ -55,7 +53,7 @@ const ComputersCanvas = () => {
       camera={{ position: [-10, -9, -20], fov: 90 }}
       gl={{ preserveDrawingBuffer: true }}
     >
-      <Suspense fallback={<CanvasLoader />}>
+      <Suspense>
         <OrbitControls
           enableZoom={false}
           enableRotate={true}
