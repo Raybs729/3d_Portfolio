@@ -5,7 +5,7 @@ import { OrbitControls, useGLTF } from "@react-three/drei";
 const Earth = () => {
   const earth = useGLTF("./wonderful_world/scene.gltf");
   return (
-    <primitive object={earth.scene} scale={1.5} position-y={[-2]} rotation-y={4} />
+    <primitive object={earth.scene} scale={1.5} position-y={[-2]} rotation-y={2} />
   );
 };
 
